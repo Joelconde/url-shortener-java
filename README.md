@@ -24,3 +24,13 @@ git clone https://github.com/tuusuario/urlshortener-java.git
 # Entrar al directorio del proyecto
 cd Documents/urlshortener-java
 
+# Con Maven
+mvn clean install
+
+# Con Gradle
+# ./gradlew build
+
+# Ejecutar la app
+java -jar target/urlshortener-1.0.jar
+
+chmod +x target/urlshortener-1.0.jar
