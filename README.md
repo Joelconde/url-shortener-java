@@ -44,6 +44,9 @@ gradle build
 ```
 ```El archivo ejecutable quedará en:
 /target/urlshortener.jar
+```
 o
+```
 /build/libs/urlshortener.jar
 ```
+# En Windows
