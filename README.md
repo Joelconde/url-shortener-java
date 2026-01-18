@@ -35,15 +35,18 @@ cd urlshortener-java
 
 ### 2. Compilar el proyecto
 
-```Con Maven:
+Con Maven:
+```
 mvn clean package
 ```
 
-```Con Gradle:
+Con Gradle:
+```
 gradle build
 ```
 
-```El archivo ejecutable quedará en:
+El archivo ejecutable quedará en:
+```
 /target/urlshortener.jar
 ```
 o
