@@ -127,7 +127,8 @@ src/
 ```
 
 
-###🛡️ Licencia
+### 🛡️ Licencia
+
 Este proyecto está bajo la licencia MIT. Puedes usarlo libremente en proyectos personales o comerciales.
 ```
 Si quieres, puedo añadir **badges**, una **sección de contribución**, un **diagrama de arquitectura**, o adaptarlo exactamente a tu código real. ¿Quieres que lo personalice más?
