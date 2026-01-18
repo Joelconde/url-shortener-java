@@ -1,36 +1,42 @@
-# 🚀 URL Shortener - Java
+# 🧩 URL Shortener en Java
 
-Un acortador de URLs simple hecho en **Java**, compatible con **Windows y Linux**.  
-Este README incluye **comandos listos para copiar** y explicaciones paso a paso.
-
----
-
-## 📋 Requisitos
-
-Antes de comenzar, asegúrate de tener:
-
-- **Java 17+**
-- **Maven** o **Gradle**
-- **curl** o navegador para probar la API
+Un acortador de URLs ligero, rápido y multiplataforma desarrollado en **Java**, compatible con **Windows** y **Linux**. Ideal para proyectos personales, despliegues en servidores pequeños o como base para sistemas más complejos.
 
 ---
 
-## 📂 1️⃣ Clonar el repositorio
+## 🚀 Características principales
+
+- ✨ Acorta URLs largas generando identificadores únicos  
+- 🔁 Redirección automática al acceder al enlace corto  
+- 🗂️ Persistencia opcional (archivo local o base de datos)  
+- 🧪 API REST sencilla (si tu implementación la incluye)  
+- 🖥️ Funciona en Windows y Linux sin cambios  
+- 📦 Empaquetado en `.jar` para ejecución directa  
+- 🔧 Configuración mínima mediante `.properties` o variables de entorno  
+
+---
+
+## 📦 Requisitos
+
+- **Java 17 o superior**  
+- (Opcional) **Maven** o **Gradle**  
+- (Opcional) **Git**
+
+---
+
+## 🛠️ Instalación
+
+### 1. Clonar el repositorio
 
 ```bash
-# Clonar el proyecto
 git clone https://github.com/tuusuario/urlshortener-java.git
+cd urlshortener-java
+```
 
-# Entrar al directorio del proyecto
-cd Documents/urlshortener-java
+### 2. Compilar el proyecto
 
-# Con Maven
-mvn clean install
+```Con Maven:
+mvn clean package
+```
 
-# Con Gradle
-# ./gradlew build
-
-# Ejecutar la app
-java -jar target/urlshortener-1.0.jar
-
-chmod +x target/urlshortener-1.0.jar
+```Con Maven:
