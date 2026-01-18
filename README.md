@@ -39,4 +39,11 @@ cd urlshortener-java
 mvn clean package
 ```
 
-```Con Maven:
+```Con Gradle:
+gradle build
+```
+```El archivo ejecutable quedará en:
+/target/urlshortener.jar
+o
+/build/libs/urlshortener.jar
+```
